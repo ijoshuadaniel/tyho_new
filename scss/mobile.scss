@@ -1,0 +1,175 @@
+@media only screen and (max-width:769px){
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.mobile{
+    display: block;
+}
+.sidemenu{
+    display: none;
+}
+.tablet{
+    display: none;
+}
+
+.large-desktop{
+    display: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.sidemenu{
+    position: absolute;
+    width: 200px;
+    background-color: whitesmoke;
+    height: 200vh;
+    z-index: 1;
+    box-shadow: 1px 1px 1px #eeeeee;
+
+    .close{
+        margin-top: 5px;
+        display: flex;
+        justify-content: flex-end;
+        z-index: 1;
+        li{
+            list-style: none;
+        a{
+            text-decoration: none;
+            padding-right: 15px;
+            color: black;
+        }
+        }
+        }
+    }
+
+    .menu-sidebar{
+        padding-left: 10px;
+        padding-top: 50px;
+        li{
+            list-style: none;
+            padding: 15px;
+        border-bottom: 3px solid #eeeeee ;
+
+        }
+        a{
+            text-decoration: none;
+            font-size: 12px;
+        }
+    }
+}
+
+
+.mobile-wrapper{
+    width: 100%;
+    background-image: url(./../assets/background/main-background.jpg);
+    
+    .mobile-nav{
+        padding: 10px;
+        z-index: 0;
+        .mob-navigation{
+            padding-top:10px ;
+        }
+        ul{
+            li{
+                list-style: none;
+                display: inline;
+                    padding-left: 10px;
+                .mobile-login{
+                    float: right;
+                    margin-right: 10px;
+                }
+                .menu-icon{
+                    float: right;
+                    padding-top: 15px;
+                }
+                a{
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+.mobile-logo{
+    img{
+        width: 15%;
+    }
+}
+
+.trips_by_destination{
+    padding-top: 30px;
+    padding-left: 10px;
+    li{
+        list-style: none;
+        padding: 15px;
+        border-bottom: 3px solid #eeeeee ;
+
+        a{
+            text-decoration: none;
+            font-size: 12px;
+        }
+    }
+}
+
+.mobile-back-level-one,.mobile-back-level-two,.mobile-back-theme{
+    border-bottom: 3px solid #eeeeee;
+}
+
+.mobile-all-options{
+    padding-top: 30px;
+    padding-left: 10px;
+    li{
+        list-style: none;
+        padding: 10px;
+        border-bottom: 3px solid #eeeeee ;
+
+        a{
+            text-decoration: none;
+            font-size: 12px;
+        }
+    }
+}
+
+.mobile_trip_theme{
+    ul {
+        padding-top: 30px;
+        padding-left: 10px;
+        li{
+        list-style: none;
+        padding: 10px;
+        border-bottom: 3px solid #eeeeee ;
+        a{
+            text-decoration: none;
+            font-size: 12px;
+        }
+    }
+}
+}
+
+
+.mobile-login{
+    border: 1px solid white ;
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-size: 14px !important;    
+}
+
+.main-hero{
+    a{
+     font-size: 12px;
+    }
+    h5{
+     font-size: 12px;
+    
+    }
+    .cus_bor{
+        margin-bottom: 40px;
+        padding-bottom: 40px;
+        width: 100%;
+    }
+    }
